@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <title>Responsive Landing Page</title>
+    <style>
+        .hero-section {
+  animation: fadeIn 1.5s ease-in-out;
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">Lenovo</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+      </ul>
+      <a href="#" class="btn btn-primary ms-3">Sign Up</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero-section text-center text-white d-flex align-items-center" style="background: url('tab_bg_image.jpeg') center/cover; height: 120vh;">
+  <div class="container">
+    <h1 class="display-3 fw-bold">Lenovo Amazing Product</h1>
+    <p class="lead">A Tablet which Can be used by Everyone in a House from School Child to Working Professionals</p>
+    <a href="#" class="btn btn-lg btn-primary">Get Started</a>
+  </div>
+</header>
+
+<section class="container py-5">
+  <div class="row text-center">
+    <div class="col-12 col-md-6 col-lg-4">
+      <img src="Pen.webp" class="img-fluid mb-3 rounded" alt="Feature One">
+      <h3>Feature One</h3>
+      <p>It Support Stylus Pen Sensors Accurately Palm Hands can Placed on Tab.</p>
+    </div>
+    <div class="col-12 col-md-6 col-lg-4">
+      <img src="tab3.jpeg" class="img-fluid mb-3 rounded" alt="Feature Two">
+      <h3>Feature Two</h3>
+      <p>With 2Hours of Charge Use upto 2 Days of Battery Life.</p>
+    </div>
+    <div class="col-12 col-md-6 col-lg-4">
+      <img src="tab4.jpg" class="img-fluid mb-3 rounded" alt="Feature Three">
+      <h3>Feature Three</h3>
+      <p>Light in Weight We Can Carry EveryWhere.</p>
+    </div>
+  </div>
+</section>
+
+
+<footer class="bg-dark text-white text-center py-3">
+  <p>&copy; 2025 Lenovo. All rights reserved.</p>
+  <div>
+    <a href="#" class="text-white me-3">Twitter</a>
+    <a href="#" class="text-white me-3">Facebook</a>
+    <a href="#" class="text-white">Instagram</a>
+  </div>
+</footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
